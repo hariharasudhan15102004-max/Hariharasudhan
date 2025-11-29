@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar Layout</title>
+
+  <!-- Font Awesome for Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-bolt"></i>
+        <h2>sparkPro <br> Electricians</h2>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Sections -->
+  <section id="home" class="section">
+    <div class="main">
+      <div class="left-sidecontant">
+        <h1>Reliable Local Electrician <br> Services - 24/7 Emergancy <br>Eletrical Help in Chennai</h1>
+        <p>Licensed electricians for fast and safe repairs, wiring,instsllations, and maintenance. Serving homes and
+          businesses across chennai and nearby areas.</p>
+        <button class="btn btn-blue">Get a Free Quote</button>
+        <button class="btn btn-gray">Call Our Experts</button>
+      </div>
+      <div class="right-sidecontant">
+        <img class="eletric" src="./eleteric.png" alt="">
+      </div>
+    </div>
+  </section>
+  <hr>
+
+<!-- About -->
+
+  <section id="about" class="section">
+    <h1 class="aboutas">About us</h1>
+    <div class="main">
+      <div class="secondleft-sidecontant">
+        <img src="./2nd_ele-removebg-preview.png" alt="">
+      </div>
+      <div class="secondright-sidecontant">
+        <h2>Certified Electricians with <br> 10+ Year of Experience</h2>
+        <p>Looking for the best electrical services? Our certified electricians have years of experience providing
+          top-notch solutions for all your electrical needs. Our licensed professionals ensure safety and quality in
+          every job.Whether it's a power outage rewiring job or appliance installation, we've got you covered. </p>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+        <!-- Services -->
+
+  <!-- <section id="services" class="section">
+    <div class="main">
+        <div class="thiredleft-sidecontant">
+          <h1>Our Services</h1>
+        <h2 class="header">Complete Range of Electrical Services in Chennai</h2>
+        <div class="sixdivbox">
+          <img
+            src="https://png.pngtree.com/png-clipart/20240312/original/pngtree-man-electrician-repairs-power-shield-and-connects-residential-building-or-factory-png-image_14575101.png"
+            alt="">
+
+          <div class="Emergency">
+            <h2 class="num">01</h2>
+
+            <div class="thirdoverall">
+              <div class="firsticons">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+              </div>
+              <div class="secondphara">
+                <h3>Emergency Electrical Repairs</h3>
+                <p>
+                  24/7 emergency electrical repair services to quickly restore power and ensure safety in your home or
+                  business.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="Office">
+            <h2 class="num">02</h2>
+
+            <div class="thirdoverall">
+              <div class="firsticons">
+                <i class="fa-regular fa-house"></i>
+              </div>
+              <div class="secondphara">
+                <h3>Home & Office Wring </h3>
+                <p>Safe electrical wring and rewiring services for residential</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="Residential">
+            <h2 class="num">03</h2>
+
+            <div class="thirdoverall">
+              <div class="firsticons">
+                <i class="fa-solid fa-plug"></i>
+              </div>
+              <div class="secondphara">
+                <h3>Switchboard & Circuit Breakers</h3>
+                <p>Upgrade to morden circuit breakes for improved saftey and performance </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="Applience">
+            <h2 class="num">04</h2>
+
+            <div class="thirdoverall">
+              <div class="firsticons">
+                <i class="fa-regular fa-clipboard"></i>
+              </div>
+              <div class="secondphara">
+                <h3>Appliance installation</h3>
+                <p>Expert installation of fans, gesysers, lighting, systems, and more</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="Saftey">
+            <h2 class="num">05</h2>
+
+            <div class="thirdoverall">
+              <div class="firsticons">
+                <i class="fa-solid fa-address-book"></i>
+              </div>
+              <div class="secondphara">
+                <h3>Safety Inspections</h3>
+                <p>Certifide inspections to ensure your electrical systems meet safety regulations </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="solar">
+            <h2 class="num">06</h2>
+
+            <div class="thirdoverall">
+              <div class="firsticons">
+                <i class="fa-solid fa-solar-panel"></i>
+              </div>
+              <div class="secondphara">
+                <h3>Solar & Inverter Installation </h3>
+                <p>Eco-friendly power solution including solar panels and inverter systems</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+    <div class="thiredright-sidecontant">Services Right</div>
+    </div>
+  </section> -->
+  <section class="services-section">
+    <div class="services-header">
+      <h1>Our Services</h1>
+      <p>Complete Range of Electrical Services in Chennai</p>
+    </div>
+
+    <div class="services-container">
+      <div class="service-box">
+        <div class="service-number">01</div>
+        <div class="service-content">
+          <h3>Emergency Electrical Repairs</h3>
+          <p>24/7 response to electrical breakdowns, short circuits, or power failures.</p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-number">02</div>
+        <div class="service-content">
+          <h3>Home & Office Wiring</h3>
+          <p>Safe electrical wiring and rewiring services for residential and commercial buildings.</p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-number">03</div>
+        <div class="service-content">
+          <h3>Switchboard & Circuit Breakers</h3>
+          <p>Upgrade to modern circuit breakers for improved safety and performance.</p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-number">04</div>
+        <div class="service-content">
+          <h3>Appliance Installation</h3>
+          <p>Expert installation of fans, geysers, lighting systems, and more.</p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-number">05</div>
+        <div class="service-content">
+          <h3>Safety Inspections</h3>
+          <p>Certified inspections to ensure your electrical systems meet safety regulations.</p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <div class="service-number">06</div>
+        <div class="service-content">
+          <h3>Solar & Inverter Installation</h3>
+          <p>Eco-friendly power solutions including solar panels and inverter systems.</p>
+        </div>
+      </div>
+    </div>
+  <hr>
+
+        <!-- Testimonial -->
+
+  <!-- <section id="testimonial" class="section">
+    <div class="main">
+      <div class="forthleft-sidecontant">
+        <h1>Why Choose Us</h1>
+        <h2>Why Customers Trust Our Electrical Services</h2>
+        <div class="overmain">
+          <div class="one">
+          <div class="secondoverall">
+          <div class="Licensed">
+            <h3 class="Licenseds">Licensed & Experienced Technicians</h3>
+            <p class="Licenseds">Slilled professionals Certifide to handle all your eletrical needs width precision. </p>
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+      </div> -->
+
+      <!-- <div class="secondoverall">
+          <div class="Licensed">
+            <h3 class="Licenseds">Licensed & Experienced Technicians</h3>
+            <p class="Licenseds">Slilled professionals Certifide to handle all your eletrical needs width precision. </p>
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+      </div> -->
+
+      <!-- <div class="secondoverall">
+          <div class="Licensed">
+            <h3 class="Licenseds">Licensed & Experienced Technicians</h3>
+            <p class="Licenseds">Slilled professionals Certifide to handle all your eletrical needs width precision. </p>
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+      </div> -->
+        </div>
+
+        <div class="two">
+        <!-- <div class="secondoverall">
+          <div class="Licensed">
+            <h3 class="Licenseds">Licensed & Experienced Technicians</h3>
+            <p class="Slilled">Slilled professionals Certifide to handle all your eletrical needs width precision. </p>
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+      </div> -->
+<!-- 
+      <div class="secondoverall">
+          <div class="Licensed">
+            <h3 class="Licenseds">Licensed & Experienced Technicians</h3>
+            <p class="Licenseds">Slilled professionals Certifide to handle all your eletrical needs width precision. </p>
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+      </div> -->
+
+      <!-- <div class="secondoverall">
+          <div class="Licensed">
+            <h3 class="Licenseds">Licensed & Experienced Technicians</h3>
+            <p class="Slilled">Slilled professionals Certifide to handle all your eletrical needs width precision. </p>
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+      </div> -->
+      </div>
+        </div>
+        
+      </div>
+      
+      <!-- <div class="forthright-sidecontant">Testimonial Right</div> -->
+    </div>
+  </section>
+
+  <!-- <hr> -->
+
+        <!-- Contact -->
+
+  <!-- <section id="contact" class="section">
+    <div class="main">
+      <div class="fifthleft-sidecontant">Contact Left</div>
+      <div class="fifthright-sidecontant">Contact Right</div>
+    </div>
+  </section> -->
+
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+
+</html>
